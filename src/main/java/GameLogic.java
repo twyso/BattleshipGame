@@ -3,7 +3,6 @@ import BattleshipBoard.BoardStatus;
 import BattleshipBoard.ShipType;
 import Coordinates.Coordinates;
 
-import java.io.InputStream;
 import java.util.HashSet;
 import java.util.InputMismatchException;
 import java.util.Set;

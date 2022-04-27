@@ -1,6 +1,5 @@
 package Coordinates;
 
-import java.io.InputStream;
 import java.util.InputMismatchException;
 import java.util.Objects;
 import java.util.Random;

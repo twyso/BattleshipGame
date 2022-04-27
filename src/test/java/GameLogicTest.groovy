@@ -1,9 +1,6 @@
-import BattleshipBoard.Board
 import BattleshipBoard.ShipType
 import Coordinates.Coordinates
 import spock.lang.Specification
-import spock.util.EmbeddedSpecCompiler
-
 
 class GameLogicTest extends Specification {
 

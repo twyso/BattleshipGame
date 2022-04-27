@@ -71,7 +71,7 @@ public class Board {
         addShipsToBoard();
     }
 
-    private void addShipsToBoard() {
+     void addShipsToBoard() {
         List<Coordinates> addToShipCoordinatesMap = getShipCoordinatesMap().keySet().stream().flatMap(Collection::stream).collect(Collectors.toList());
         for (Coordinates coordinates : addToShipCoordinatesMap) {
             setCoordinate(coordinates, BoardStatus.SHIP);
